@@ -1,4 +1,4 @@
-# Package cien-core
+# Package nodexpert:meteor-cache
 
 Meteor package that contains wrapper for node-cache.
 
