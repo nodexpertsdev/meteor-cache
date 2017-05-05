@@ -11,7 +11,7 @@ Npm.depends({
 });
 
 Package.onUse((api) => {
-  // api.versionsFrom('METEOR@1.4.2');
+  api.versionsFrom('METEOR@1.4.2');
 
   const packages = [
     'ecmascript',
