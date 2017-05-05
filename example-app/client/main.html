@@ -1,0 +1,16 @@
+<head>
+  <title>example-app</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> cache}}
+</body>
+
+
+<template name="cache">
+  <h2>Cache Data</h2>
+  <h2>{{getCacheData}}</h2>
+  <button type="button" id="updateCacheData">Update Cache Data</button>
+</template>
